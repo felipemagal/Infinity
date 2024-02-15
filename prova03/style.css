@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+h3 {
+    color: white;
+    text-align: center;
+}
+#container{
+    background-color: red;
+    height: 120px;
+    text-align: center;
+}
+.login{
+    color: white;
+}
+.senha{
+    color: white;
+}
+.entrar{
+    text-align: center;
+}
+a{
+    color: white;
+
+}
+
+.botão{
+    margin-top: 10px;
+}

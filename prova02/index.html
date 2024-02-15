@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Nome Completo</legend>
+            <input type="Nome completo">
+                <legend>Idade</legend>
+                <input type="numero">
+            <legend>Email</legend>
+            <input type="email">
+        </fieldset>
+        
+        
+        
+        <fieldset class="genero">
+            <label for="Orientação Sexual"></label>
+            <input type="radio" id="masc" name="gênero" value="masculino">
+            <label for="masc">Masculino</label>
+            <input type="radio" id="fem" name="gênero" value="feminino">
+            <label for="fem">Feminino</label>
+            <input type="radio" id="out" name="gênero" value="outro">
+            <label for="fem">Outro</label>
+        </fieldset>
+
+        <fieldset class="animais">
+            <legend>Você possui animais?</legend>
+            <label for="Animais"></label>
+            <input type="checkbox" id="dog" name="cachorro" value="cachorro">
+            <label for="dog">Cachorro</label>
+            <input type="checkbox" id="gato" name="gato" value="gato">
+            <label for="dog">Gato</label>
+            <input type="checkbox" id="Hamster" name="Hamster" value="Hamster">
+            <label for="dog">Hamster</label>
+            <input type="checkbox" id="passaro" name="passaro" value="passaro">
+            <label for="passaro">Pássaro</label>
+            <input type="checkbox" id="nt" name="nt" value="nt">
+            <label for="nt">Não possuo</label>
+        </fieldset>
+        
+        <label for="message">Descreva seu PET:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <fieldset class="promo">
+            <legend>Deseja receber Emails com promoções?</legend>
+            <label for="confirmar">Sim</label>
+            <input type="radio">
+            <label for="cancelar">Não</label>
+            <input type="radio">
+        </fieldset>
+
+        <fieldset>
+            <legend>Login</legend>
+            <input type="Nome completo">
+            <legend>Senha</legend>
+            <input type="password" minlength="8">
+        </fieldset>
+
+        <input type="submit" value="apagar" class="send">
+        <input type="submit" value="Enviar" class="send">
+        
+
+
+    </form>
+</body>
+</html>
